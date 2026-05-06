@@ -6,7 +6,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import sys
 
-CLASSES = ["dew","fogsmog","frost","glaze","hail","lightning","rain","rainbow","rime","sandstorm","snow"]
+CLASSES = ["cloudy","rain","shine","sunrise"]
 
 DEVICE = torch.accelerator.current_accelerator().type
 
