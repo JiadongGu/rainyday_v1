@@ -1,1 +1,3 @@
 dataset/
+data/
+weather_model.pt
